@@ -1,0 +1,60 @@
+.container {
+  background-color: rebeccapurple;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+.total {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: burlywood;
+}
+.info {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: aquamarine;
+}
+.name {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: chartreuse;
+}
+.inputdiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: firebrick;
+}
+.input {
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: beige;
+  color: blue;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+.press-button{
+    width: 40%;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 2rem;
+    background-color: chocolate;
+}
